@@ -34,8 +34,7 @@ def OrdenarInserc(lst):
             nueNum -= 1
 
 lista = []
-opc = 0
-while opc != 9:
+while True:
     print ("----------------------")
     print ("1. Agregar Puesto")
     print ("2. Mostrar Todo")
@@ -89,4 +88,5 @@ while opc != 9:
     elif op == 5:
         break
     elif op == 6:
+        print("\n Saliendo del SW.\n")
         break
